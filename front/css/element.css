@@ -1,0 +1,53 @@
+.element {
+    display: flex;
+    background-color: #f1f1f1;
+    width: 80%; 
+    margin: 20px auto; 
+    border: 2px solid lightgray;
+    overflow: hidden;
+}
+
+.element-img {
+    width: 275px;
+    height: 275px;
+    object-fit: cover;
+}
+
+.element-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+}
+
+.element-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.element-text {
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+
+.element-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.element-footer button {
+    margin-left: 10px;
+}
+
+.element-footer .btn-primary {
+    background-color: #000000;
+    color: #fff; 
+}
+
+.element-footer .btn-danger {
+    background-color: #000000;
+    color: #fff; 
+}
